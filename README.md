@@ -8,3 +8,6 @@ Usage: ./scanner target(IPv4) start end
 eg: ./scanner 127.0.0.1 1 1024
 
 scanner.cpp ONLY SUPPORTS IPv4 
+
+compile command for g++:
+g++ -std=c++17 -Wall -Wextra -pthread -o scanner scanner.cpp
